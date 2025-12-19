@@ -1,0 +1,48 @@
+<html>
+
+<head>
+	<title>Motif</title>
+	<link rel="stylesheet" href="./src/styles.css">
+</head>
+
+<body>
+	<section id="loader" class="loader-container">
+		<div>
+			<svg viewBox="0 0 200 200"><circle fill="#435E84" stroke="#435E84" stroke-width="15" r="15" cx="40" cy="100"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate></circle><circle fill="#435E84" stroke="#435E84" stroke-width="15" r="15" cx="100" cy="100"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate></circle><circle fill="#435E84" stroke="#435E84" stroke-width="15" r="15" cx="160" cy="100"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate></circle></svg>
+			<p>Processing please wait</p>
+		</div>
+
+	</section>
+	<section id="fileUploadContainer" class="file-upload-container">
+		<div class="file-upload"> 
+			<label for="upload"> 
+				<svg width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Unicons by Iconscout - https://github.com/Iconscout/unicons/blob/master/LICENSE --><path fill="currentColor" d="M13 20H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5v3a3 3 0 0 0 3 3h3v2a1 1 0 0 0 2 0V8.94a1.3 1.3 0 0 0-.06-.27v-.09a1 1 0 0 0-.19-.28l-6-6a1 1 0 0 0-.28-.19a.3.3 0 0 0-.09 0a.9.9 0 0 0-.33-.11H6a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h7a1 1 0 0 0 0-2m0-14.59L15.59 8H14a1 1 0 0 1-1-1ZM8 8a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm6 4H8a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2m6.71 5.29l-2-2a1 1 0 0 0-.33-.21a1 1 0 0 0-.76 0a1 1 0 0 0-.33.21l-2 2a1 1 0 0 0 1.42 1.42l.29-.3V21a1 1 0 0 0 2 0v-2.59l.29.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42M12 18a1 1 0 0 0 0-2H8a1 1 0 0 0 0 2Z"/></svg>
+				<p>Browse File to upload!</p> 
+			</label> 
+			<input type="file" id="upload" accept=".txt"> 
+			<p>TXT file with graph data</p> 
+		</div>
+
+	</section>
+
+	<div class="content">
+		<section class="canvas-wrapper">
+			<canvas id="mainCanvas"></canvas>
+		</section>
+		<section class="action-bar-wrapper">
+			<div class="action-bar">
+				<button id="countSubgraphBtn">Count Subgraphs</button>
+				<button id="genRandomBtn">Generate Random model</button>
+			</div>
+		</section>
+		<section class="stats">
+			<h3 class="section-heading">Subgraphs Count</h3>
+			<div id="subgraphs">
+
+			</div>
+		</section>
+	</div>
+	<script type="module" src="./src/app.js"></script>
+</body>
+
+</html>

@@ -17,6 +17,7 @@ h3{
     top: 0;
     left: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     z-index: 10;
@@ -74,6 +75,12 @@ h3{
 .file-upload > p{
     text-align: center;
     font-size: 0.9rem;
+}
+
+.footer-links{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #435e84;
 }
 
 .loader-container{

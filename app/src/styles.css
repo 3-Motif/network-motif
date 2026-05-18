@@ -62,6 +62,20 @@ h3{
     display: none;
 }
 
+.file-upload .info{
+    background: #435e84;
+    padding: 0.15rem 0.5rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    color: #caddf8;
+    margin: 0;
+}
+
+.file-upload > p{
+    text-align: center;
+    font-size: 0.9rem;
+}
+
 .loader-container{
     position: absolute;
     background-color: #e7ffffe3;

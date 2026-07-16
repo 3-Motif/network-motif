@@ -70,24 +70,28 @@
 
 <!-- motif-7 -->
 <svg width="100%" height="100%" viewBox="0 0 196 177" fill="none">
-<path d="M43.0835 119.307L85.7242 44.9792" stroke="black" stroke-width="4.9906" class="edge"/>
+<path d="M134.112 159.049L144.039 151.486L134.003 144.075L134.112 159.049Z" fill="black" stroke="black" stroke-width="4.9906" stroke-linecap="round" stroke-linejoin="round" class="arrow-head"/>
+<path d="M43.0833 119.307L85.7239 44.9792" stroke="black" stroke-width="4.9906" class="edge"/>
 <path d="M35.9687 116.667L37.4947 129.047L48.9582 124.115L35.9687 116.667Z" fill="black" stroke="black" stroke-width="4.9906" stroke-linecap="round" stroke-linejoin="round" class="arrow-head"/>
 <path d="M152.213 118.281L109.776 44.9323" stroke="black" stroke-width="4.9906" class="edge"/>
 <path d="M146.359 123.109L157.839 128L159.318 115.609L146.359 123.109Z" fill="black" stroke="black" stroke-width="4.9906" stroke-linecap="round" stroke-linejoin="round" class="arrow-head"/>
+<path d="M47.7036 151.256L136.049 151.256" stroke="black" stroke-width="4.9906" class="edge"/>
 <circle cx="98" cy="24" r="24" class="node" fill="#5A5A5A"/>
 <circle cx="24" cy="152" r="24" class="node" fill="#5A5A5A"/>
-<circle cx="171" cy="151" r="24" class="node" fill="#5A5A5A"/>
+<circle cx="171" cy="152" r="24" class="node" fill="#5A5A5A"/>
 </svg>
 
 <!-- motif-8 -->
 <svg width="100%" height="100%" viewBox="0 0 196 177" fill="none">
+<path d="M134.112 159.049L144.039 151.486L134.003 144.075L134.112 159.049Z" fill="black" stroke="black" stroke-width="4.9906" stroke-linecap="round" stroke-linejoin="round" class="arrow-head"/>
 <path d="M43.0835 119.307L85.7242 44.9792" stroke="black" stroke-width="4.9906" class="edge"/>
 <path d="M35.9687 116.667L37.4947 129.047L48.9582 124.115L35.9687 116.667Z" fill="black" stroke="black" stroke-width="4.9906" stroke-linecap="round" stroke-linejoin="round" class="arrow-head"/>
 <path d="M159.089 130.161L116.646 56.8125" stroke="black" stroke-width="4.9906" class="edge"/>
 <path d="M109.541 59.4792L111.021 47.0938L122.5 51.9844L109.541 59.4792Z" fill="black" stroke="black" stroke-width="4.9906" stroke-linecap="round" stroke-linejoin="round" class="arrow-head"/>
+<path d="M47.9604 152.256L135.049 152.256" stroke="black" stroke-width="4.9906" class="edge"/>
 <circle cx="98" cy="24" r="24" class="node" fill="#5A5A5A"/>
 <circle cx="24" cy="152" r="24" class="node" fill="#5A5A5A"/>
-<circle cx="171" cy="151" r="24" class="node" fill="#5A5A5A"/>
+<circle cx="171" cy="152" r="24" class="node" fill="#5A5A5A"/>
 </svg>
 
 <!-- motif-9 -->
